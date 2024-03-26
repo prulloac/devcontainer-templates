@@ -1,10 +1,10 @@
 {
-    "id": "color",
+    "id": "java_typescript",
     "version": "1.0.0",
-    "name": "My Favorite Color",
-    "description": "A Template to remind you of your favorite color",
-    "documentationURL": "https://github.com/devcontainers/template-starter/tree/main/src/color",
-    "licenseURL": "https://github.com/devcontainers/template-starter/blob/main/LICENSE",
+    "name": "Java & Typescript",
+    "description": "A Template to build fullstack applications with both java and javascript/typescript stacks",
+    "documentationURL": "https://github.com/prulloac/devcontainer-templates/tree/main/src/java_typescript",
+    "licenseURL": "https://github.com/prulloac/devcontainer-templates/blob/main/LICENSE",
     "options": {
         "imageVariant": {
             "type": "string",
@@ -15,15 +15,15 @@
             ],
             "default": "bullseye"
         },
-        "favorite": {
+        "javaVersion": {
             "type": "string",
-            "description": "Choose your favorite color.",
+            "description": "Java version to install",
             "proposals": [
-                "red",
-                "gold",
-                "green"
+                "latest",
+                "21",
+                "17"
             ],
-            "default": "red"
+            "default": "latest"
         }
     },
     "platforms": [
