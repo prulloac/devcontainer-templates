@@ -12,8 +12,7 @@ jobs:
         id: filter
         with:
           filters: |
-            color: ./**/color/**
-            hello: ./**/hello/**
+            java_typescript: ./**/java_typescript/**
 
   test:
     needs: [detect-changes]

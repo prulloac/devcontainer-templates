@@ -1,0 +1,27 @@
+{
+	"name": "Favorite color",
+	"image": "mcr.microsoft.com/devcontainers/base:${templateOption:imageVariant}",
+
+	// 👇 Features to add to the Dev Container. More info: https://containers.dev/implementors/features.
+	"features": {
+		"ghcr.io/devcontainers/features/docker-in-docker:2": {},
+		"ghcr.io/prulloac/devcontainer-features/bun": {},
+		"ghcr.io/devcontainers/features/common-utils": {
+			"configureZshAsDefaultShell": true
+		},
+		"ghcr.io/devcontainers/features/java": {
+			"version": "21",
+			"installMaven": true,
+			"installGradle": true
+		}
+	}
+
+	// 👇 Use 'forwardPorts' to make a list of ports inside the container available locally.
+	// "forwardPorts": [],
+
+	// 👇 Configure tool-specific properties.
+	// "customizations": {},
+
+	// 👇 Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+	// "remoteUser": "root"
+}
