@@ -8,7 +8,6 @@ check "java" java --version
 check "bun" bun --version
 check "node" node --version
 check "npm" npm --version
-check "yarn" yarn --version
 check "docker" docker --version
 check "docker-compose" docker-compose --version
 check "git" git --version

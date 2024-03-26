@@ -5,16 +5,19 @@
 	// 👇 Features to add to the Dev Container. More info: https://containers.dev/implementors/features.
 	"features": {
 		"ghcr.io/devcontainers/features/docker-in-docker:2": {},
-		"ghcr.io/prulloac/devcontainer-features/bun": {},
-		"ghcr.io/devcontainers/features/common-utils": {
+		"ghcr.io/prulloac/devcontainer-features/bun:1": {
+			"useNpm": true
+		},
+		"ghcr.io/devcontainers/features/common-utils:2": {
 			"configureZshAsDefaultShell": true
 		},
-		"ghcr.io/devcontainers/features/java": {
+		"ghcr.io/devcontainers/features/java:1": {
 			"version": "${templateOption:javaVersion}",
 			"installMaven": true,
 			"installGradle": true
 		},
-		"ghcr.io/devcontainers/features/github-cli": {}
+		"ghcr.io/devcontainers/features/github-cli:1": {}
+		
 	}
 
 	// 👇 Use 'forwardPorts' to make a list of ports inside the container available locally.
