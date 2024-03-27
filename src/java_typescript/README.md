@@ -7,7 +7,7 @@ A Template to build fullstack applications with both java and javascript/typescr
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| imageVariant | Debian version (use bullseye on local arm64/Apple Silicon): | string | bullseye |
+| imageVariant | Debian version (use bullseye on local arm64/Apple Silicon): | string | bookworm |
 | javaVersion | Java version to install | string | latest |
 
 
