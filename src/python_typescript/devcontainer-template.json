@@ -1,0 +1,23 @@
+{
+    "id": "python_typescript",
+    "version": "1.0.0",
+    "name": "Python & Typescript",
+    "description": "A Template to build fullstack applications with both python and javascript/typescript stacks",
+    "documentationURL": "https://github.com/prulloac/devcontainer-templates/tree/main/src/python_typescript",
+    "licenseURL": "https://github.com/prulloac/devcontainer-templates/blob/main/LICENSE",
+    "options": {
+        "imageVariant": {
+            "type": "string",
+            "description": "Debian version (use bullseye on local arm64/Apple Silicon):",
+            "proposals": [
+                "bullseye",
+                "buster",
+                "bookworm"
+            ],
+            "default": "bookworm"
+        }
+    },
+    "platforms": [
+        "Any"
+    ]
+}

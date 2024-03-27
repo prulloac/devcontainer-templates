@@ -1,6 +1,6 @@
 {
     "id": "java_typescript",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "name": "Java & Typescript",
     "description": "A Template to build fullstack applications with both java and javascript/typescript stacks",
     "documentationURL": "https://github.com/prulloac/devcontainer-templates/tree/main/src/java_typescript",
@@ -11,9 +11,10 @@
             "description": "Debian version (use bullseye on local arm64/Apple Silicon):",
             "proposals": [
                 "bullseye",
-                "buster"
+                "buster",
+                "bookworm"
             ],
-            "default": "bullseye"
+            "default": "bookworm"
         },
         "javaVersion": {
             "type": "string",
