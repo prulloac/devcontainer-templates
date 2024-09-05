@@ -1,5 +1,5 @@
 {
-	"name": "Java & Typescript",
+	"name": "Python & Typescript",
 	"image": "mcr.microsoft.com/devcontainers/base:${templateOption:imageVariant}",
 
 	// 👇 Features to add to the Dev Container. More info: https://containers.dev/implementors/features.
