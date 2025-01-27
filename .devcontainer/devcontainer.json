@@ -1,6 +1,6 @@
 // More info: https://containers.dev/implementors/json_reference/
 {
-	"image": "ghcr.io/prulloac/base-devcontainer:latest",
+	"image": "ghcr.io/prulloac/base-debian-devcontainer:latest",
 	"features": {
 		"ghcr.io/devcontainers/features/docker-in-docker:2": {
 			"installDockerBuildx": true,
