@@ -15,6 +15,7 @@ jobs:
             java_typescript: ./**/java_typescript/**
             python_typescript: ./**/python_typescript/**
             go_typescript: ./**/go_typescript/**
+            rust_typescript: ./**/rust_typescript/**
 
   test:
     needs: [detect-changes]
