@@ -4,7 +4,7 @@ source test-utils.sh
 
 # Template specific tests
 check "distro" lsb_release -c
-check "go" go --version
+check "go" go version
 check "bun" bun --version
 check "node" node --version
 check "yarn" yarn --version
