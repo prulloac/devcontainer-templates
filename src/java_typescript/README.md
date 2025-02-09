@@ -1,7 +1,7 @@
 
 # Java & Typescript (java_typescript)
 
-A Template to build fullstack applications with both java and javascript/typescript stacks
+A Template to build fullstack applications with both java and javascript/typescript stacks (contains Bun, Maven and Gradle)
 
 ## Options
 

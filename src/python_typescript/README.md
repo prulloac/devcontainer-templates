@@ -1,7 +1,7 @@
 
 # Python & Typescript (python_typescript)
 
-A Template to build fullstack applications with both python and javascript/typescript stacks
+A Template to build fullstack applications with both python and javascript/typescript stacks (contains Bun and Poetry)
 
 ## Options
 
