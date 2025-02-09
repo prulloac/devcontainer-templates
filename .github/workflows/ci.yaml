@@ -1,0 +1,25 @@
+name: "CI - Test Templates"
+on:
+  workflow_dispatch:
+  schedule:
+    # Run weekly on Sunday at midnight
+    - cron: "0 0 * * 0"
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    strategy:
+      matrix:
+        templates: 
+            - java_typescript
+            - python_typescript
+            - go_typescript
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Smoke test for '${{ matrix.templates }}'
+        id: smoke_test
+        uses: ./.github/actions/smoke-test
+        with:
+          template: "${{ matrix.templates }}"

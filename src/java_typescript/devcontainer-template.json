@@ -2,7 +2,7 @@
     "id": "java_typescript",
     "version": "1.1.0",
     "name": "Java & Typescript",
-    "description": "A Template to build fullstack applications with both java and javascript/typescript stacks",
+    "description": "A Template to build fullstack applications with both java and javascript/typescript stacks (contains Bun, Maven and Gradle)",
     "documentationURL": "https://github.com/prulloac/devcontainer-templates/tree/main/src/java_typescript",
     "licenseURL": "https://github.com/prulloac/devcontainer-templates/blob/main/LICENSE",
     "options": {
