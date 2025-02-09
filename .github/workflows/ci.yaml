@@ -15,6 +15,7 @@ jobs:
             - java_typescript
             - python_typescript
             - go_typescript
+            - rust_typescript
     steps:
       - uses: actions/checkout@v3
 

@@ -1,0 +1,28 @@
+{
+    "id": "rust_typescript",
+    "version": "1.0.0",
+    "name": "Rust & Typescript",
+    "description": "A Template to build fullstack applications with both rust and javascript/typescript stacks (contains Bun)",
+    "documentationURL": "https://github.com/prulloac/devcontainer-templates/tree/main/src/rust_typescript",
+    "licenseURL": "https://github.com/prulloac/devcontainer-templates/blob/main/LICENSE",
+    "options": {
+        "imageVariant": {
+            "type": "string",
+            "description": "Debian version (use bullseye on local arm64/Apple Silicon):",
+            "proposals": [
+                "bullseye",
+                "buster",
+                "bookworm"
+            ],
+            "default": "bookworm"
+        },
+        "rustVersion": {
+            "type": "string",
+            "description": "Rust version to install",
+            "default": "latest"
+        }
+    },
+    "platforms": [
+        "Any"
+    ]
+}
