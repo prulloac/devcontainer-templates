@@ -15,7 +15,10 @@
 			"installMaven": true,
 			"installGradle": true
 		},
-		"ghcr.io/devcontainers/features/github-cli:1": {}
+		"ghcr.io/devcontainers/features/github-cli:1": {},
+		"ghcr.io/prulloac/devcontainer-features/chezmoi": {},
+		"ghcr.io/devcontainers-extra/features/tmux-apt-get": {},
+		"ghcr.io/devcontainers-extra/features/neovim-apt-get": {}
 	}
 
 	// 👇 Use 'forwardPorts' to make a list of ports inside the container available locally.
