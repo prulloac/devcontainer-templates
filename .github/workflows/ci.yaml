@@ -12,9 +12,10 @@ jobs:
     strategy:
       matrix:
         templates: 
+            - go_typescript
             - java_typescript
             - python_typescript
-            - go_typescript
+            - ruby_typescript
             - rust_typescript
             - zig_typescript
     steps:
