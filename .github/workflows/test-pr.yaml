@@ -1,4 +1,4 @@
-name: "CI - Test Templates"
+name: "PR - Test Templates"
 on:
   pull_request:
 
@@ -16,6 +16,7 @@ jobs:
             python_typescript: ./**/python_typescript/**
             go_typescript: ./**/go_typescript/**
             rust_typescript: ./**/rust_typescript/**
+            zig_typescript: ./**/zig_typescript/**
 
   test:
     needs: [detect-changes]

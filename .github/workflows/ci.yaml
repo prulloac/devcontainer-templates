@@ -16,6 +16,7 @@ jobs:
             - python_typescript
             - go_typescript
             - rust_typescript
+            - zig_typescript
     steps:
       - uses: actions/checkout@v3
 
