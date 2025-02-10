@@ -5,6 +5,7 @@ source test-utils.sh
 # Template specific tests
 check "distro" lsb_release -c
 check "rustc" rust --version
+check "cargo" cargo --version
 check "bun" bun --version
 check "node" node --version
 check "yarn" yarn --version

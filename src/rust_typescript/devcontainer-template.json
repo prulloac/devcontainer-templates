@@ -20,6 +20,16 @@
             "type": "string",
             "description": "Rust version to install",
             "default": "latest"
+        },
+        "rustProfile": {
+            "type": "string",
+            "description": "Rust profile to install",
+            "proposals": [
+                "minimal",
+                "default",
+                "complete"
+            ],
+            "default": "default"
         }
     },
     "platforms": [
