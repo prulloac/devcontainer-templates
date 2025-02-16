@@ -1,6 +1,6 @@
 // More info: https://containers.dev/implementors/json_reference/
 {
-	"image": "ghcr.io/prulloac/bun-ubuntu-devcontainer:latest",
+	"image": "ghcr.io/prulloac/bun:ubuntu",
 	"features": {
 		"ghcr.io/devcontainers/features/docker-in-docker:2": {
 			"installDockerBuildx": true,
