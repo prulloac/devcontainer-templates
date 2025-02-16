@@ -1,10 +1,12 @@
 {
 	"name": "Java & Typescript",
-	"image": "ghcr.io/prulloac/bun:${templateOption:imageVariant}",
+	"image": "ghcr.io/prulloac/base:${templateOption:imageVariant}",
 
 	// 👇 Features to add to the Dev Container. More info: https://containers.dev/implementors/features.
 	"features": {
 		"ghcr.io/devcontainers/features/docker-in-docker:2": {},
+		"ghcr.io/prulloac/devcontainer-features/bun:1": {},
+		"ghcr.io/devcontainers/features/node:1": {},
 		"ghcr.io/devcontainers/features/java:1": {
 			"version": "${templateOption:javaVersion}",
 			"installMaven": true,
