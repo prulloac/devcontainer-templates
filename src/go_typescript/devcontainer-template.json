@@ -1,6 +1,6 @@
 {
     "id": "go_typescript",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "name": "Go & Typescript",
     "description": "A Template to build fullstack applications with both golang and javascript/typescript stacks (contains Bun)",
     "documentationURL": "https://github.com/prulloac/devcontainer-templates/tree/main/src/go_typescript",
@@ -12,7 +12,9 @@
             "proposals": [
                 "bullseye",
                 "buster",
-                "bookworm"
+                "bookworm",
+                "ubuntu-24.04",
+                "ubuntu-22.04"
             ],
             "default": "bookworm"
         },
