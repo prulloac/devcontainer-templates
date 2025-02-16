@@ -1,16 +1,12 @@
 // More info: https://containers.dev/implementors/json_reference/
 {
-	"image": "ghcr.io/prulloac/base-debian-devcontainer:latest",
+	"image": "ghcr.io/prulloac/bun-ubuntu-devcontainer:latest",
 	"features": {
 		"ghcr.io/devcontainers/features/docker-in-docker:2": {
 			"installDockerBuildx": true,
 			"version": "latest",
 			"dockerDashComposeVersion": "latest"
-		},
-		"ghcr.io/prulloac/devcontainer-features/bun:1": {
-			"useNpm": true
-		},
-		"ghcr.io/prulloac/devcontainer-features/chezmoi:1": {}
+		}
 	},
 	"customizations": {
 		"vscode": {
